@@ -3,7 +3,13 @@
     padding: 30px;
     background-color: rgb(17, 10, 57);
 }
+.home{
+    border: hidden;
+    color: white;
+    background-color: rgb(17, 10, 57);
+}
 .Strawberry{
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -11,7 +17,7 @@
     background-color: rgb(17, 10, 57);
 }
 .ButterScotch{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -19,7 +25,7 @@
     background-color: rgb(17, 10, 57);
 }
 .Vanilla{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -27,7 +33,7 @@
     background-color: rgb(17, 10, 57);
 }
 .Pista{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -35,7 +41,7 @@
     background-color: rgb(17, 10, 57);
 }
 .chocolate{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -43,7 +49,7 @@
     background-color: rgb(17, 10, 57);
 }
 .BuleBerry{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -51,7 +57,7 @@
     background-color: rgb(17, 10, 57);
 }
 .BlackBerry{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -59,7 +65,7 @@
     background-color: rgb(17, 10, 57);
 }
 .Banana{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -67,7 +73,7 @@
     background-color: rgb(17, 10, 57);
 }
 .PineApple{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -75,7 +81,7 @@
     background-color: rgb(17, 10, 57);
 }
 .RaspBerry{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -83,7 +89,7 @@
     background-color: rgb(17, 10, 57);
 }
 .Coffe{
-    margin-left: 20px;
+    margin-left: 15px;
     border: hidden;
     color: white;
     font-weight: 900;
@@ -95,26 +101,26 @@
 }
 .navStrawberry{
     margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-   font-family: 'Courier New', Courier, monospace;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navButterScotch{
     margin-top: 10px;
-   margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-   font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navVanilla{
     margin-top: 10px;
-   margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-   font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navPista{
     margin-top: 10px;
@@ -134,35 +140,35 @@
 }
 .navBuleBerry{
     margin-top: 10px;
-   margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-   font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navBlackBerry{
     margin-top: 10px;
-   margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-   font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navBanana{
     margin-top: 10px;
-   margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-   font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navPineApple{
     margin-top: 10px;
-   margin-left: 20px;
-   border: hidden;
-   background-color: white;
-   font-weight: 900;
-  font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    border: hidden;
+    background-color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
 }
 .navRaspBerry{
     margin-top: 10px;
@@ -180,15 +186,119 @@
     font-weight: 900;
     font-family: 'Courier New', Courier, monospace;
 }
+.menuIcon{
+    margin-left: 20px;
+}
 .mainContiner{
     border: outset black 2px;
+  
+}
+.fieldSpace{
+    margin-top: 30px;
+}
+.IcecreamMenu{
+    margin-top: 120px;
+}
+.displaymenu{
+    height: fit-content;
+    width: fit-content;
+    border: solid black 2px;
+    margin-left: 30px;
 }
 
 .footerbar{
     border: outset black 2px;
     padding: 25px;
+    background-color: grey;
 }
 button:hover{
     border-radius: 15px;
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.201);
+}
+.footerStrawberry{
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerButterScotch{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerVanilla{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerPista{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerchocolate{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerBuleBerry{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerBlackBerry{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerBanana{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerPineApple{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerRaspBerry{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
+}
+.footerCoffe{
+    margin-left: 20px;
+    border: hidden;
+    color: white;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: grey;
 }
