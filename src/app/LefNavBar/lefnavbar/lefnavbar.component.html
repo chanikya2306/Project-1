@@ -1,0 +1,36 @@
+<div class="row">
+  <div class="col-2 lefnav">
+    <div class="menuIcon"><button class="btn btn-primary"><i class="bi bi-list"></i>Menu bar</button></div>
+    <div><button class="navStrawberry" routerLink="/Strawberry">Strawberry</button></div>
+    <div><button class="navButterScotch" routerLink="/ButterScotch">ButterScotch</button></div>
+    <div><button class="navVanilla" routerLink="/Vanilla">Vanilla</button></div>
+    <div><button class="navPista" routerLink="/Pista">Pista</button></div>
+    <div><button class="navchocolate" routerLink="/Chocolate">Chocolate</button></div>
+    <div><button class="navBuleBerry" routerLink="/BuleBerry">BuleBerry</button></div>
+    <div><button class="navBlackBerry" routerLink="/BlackBerry">BlackBerry</button></div>
+    <div><button class="navBanana" routerLink="/Banana">Banana</button></div>
+    <div><button class="navPineApple" routerLink="/PineApple">PineApple</button></div>
+    <div><button class="navRaspBerry" routerLink="/RaspBerry">RaspBerry</button></div>
+    <div><button class="navCoffe" routerLink="/Coffe">Coffe</button></div>
+  </div>
+  <div class="col-10 mainContiner">
+    <div class="row">
+      <div class="fieldSpace row">
+        <div class="col-3"><label for="Icecream">Enter Item Name In Field Box</label></div>
+        <div class="col-3"><input type="text" id="Icecream"></div>
+        <div class="col-3"><button class="btn btn-primary">Click Me</button></div>
+        <div class="col-3"><span><u>display name Heare</u></span></div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="row IcecreamMenu">
+        <div class="col-3"><input type="text" id="Icecream" placeholder="Enter Icecream Menu Here"></div>
+        <div class="col-3"><button class="btn btn-primary">Add Menu</button></div>
+        <div class="col-3 displaymenu"><span>display Menu Heare</span></div>
+      </div>
+    </div>
+    <div class="row">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
