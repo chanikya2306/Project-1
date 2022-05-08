@@ -17,6 +17,7 @@ import { PistaComponent } from './Pista/pista/pista.component';
 import { RaspberryComponent } from './RaspBerry/raspberry/raspberry.component';
 import { StrawberryComponent } from './Strawberry/strawberry/strawberry.component';
 import { VanillaComponent } from './Vanilla/vanilla/vanilla.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -35,11 +36,13 @@ import { VanillaComponent } from './Vanilla/vanilla/vanilla.component';
     RaspberryComponent,
     StrawberryComponent,
     VanillaComponent,
+   
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
