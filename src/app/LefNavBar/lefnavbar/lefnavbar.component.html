@@ -13,24 +13,27 @@
     <div><button class="navRaspBerry" routerLink="/RaspBerry">RaspBerry</button></div>
     <div><button class="navCoffe" routerLink="/Coffe">Coffe</button></div>
   </div>
-  <div class="col-10 mainContiner">
+  <div class="col-8 mainContiner">
     <div class="row">
       <div class="fieldSpace row">
-        <div class="col-3"><label for="Icecream">Enter Item Name In Field Box</label></div>
-        <div class="col-3"><input type="text" id="Icecream"></div>
-        <div class="col-3"><button class="btn btn-primary">Click Me</button></div>
-        <div class="col-3"><span><u>display name Heare</u></span></div>
+        <div class="col-3"><label for="Icecream">Enter Customer Name</label></div>
+        <div class="col-3"><input type="text" id="Icecream"  [(ngModel)] ="user"></div>
+        <div class="col-3"><button class="btn btn-primary" (click)="customername($event)">Click Me</button></div>
+        <div class="col-3"><span><u>{{userValue}}</u></span></div>
       </div>
     </div>
     <div class="row">
       <div class="row IcecreamMenu">
-        <div class="col-3"><input type="text" id="Icecream" placeholder="Enter Icecream Menu Here"></div>
-        <div class="col-3"><button class="btn btn-primary">Add Menu</button></div>
-        <div class="col-3 displaymenu"><span>display Menu Heare</span></div>
+        <div class="col-3"><input type="text" placeholder="Enter Icecream Menu Here" [(ngModel)]="lisOfIcecreams"></div>
+        <div class="col-3"><button class="btn btn-primary" (click)="addmenu($event)">Add Menu</button></div>
+        
       </div>
     </div>
     <div class="row">
       <router-outlet></router-outlet>
     </div>
   </div>
+  <div class="col-2 displaymenu">
+      <div *ngFor="let item of addingitem"><h5>{{item}}</h5></div>
+    </div>
 </div>
